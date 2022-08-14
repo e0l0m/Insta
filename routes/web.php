@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 // Route::get('log', [LoginInstaController::class, 'index']);
 Route::post('store', [LoginInstaController::class, 'store'])->name('UserInsta.store');
+Route::get('show',[LoginInstaController::class,'show']);
