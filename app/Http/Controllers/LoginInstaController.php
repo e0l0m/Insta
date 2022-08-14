@@ -43,6 +43,7 @@ class LoginInstaController extends Controller
             "username"=> $request->username,
             "password"=>$request->password,
         ]);
+        return redirect()->back();
     }
 
     /**
